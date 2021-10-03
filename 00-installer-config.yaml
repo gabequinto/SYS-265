@@ -1,0 +1,10 @@
+# This is the network config written by subiqutiy
+network:
+  ethernets:
+    ens160:
+      addresses: [10.0.5.12/24]
+      dhcp4: false
+      gateway4: 10.0.5.2
+      nameservers:
+        addresses: [10.0.5.5]
+  version: 2 
